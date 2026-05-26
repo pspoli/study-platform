@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect x="32" y="32" width="448" height="448" rx="64" fill="url(#grad)"/>
+
+  <!-- Letter C stylized -->
+  <path d="M320 160c-35.3 0-64 28.7-64 64v64c0 35.3 28.7 64 64 64h32v-48h-32c-8.8 0-16-7.2-16-16v-64c0-8.8 7.2-16 16-16h32v-48h-32z" fill="white"/>
+
+  <!-- A letter -->
+  <path d="M376 352h-48l40-192h48l40 192h-48l-8-32h-64l-8 32zm24-80l-12-48-12 48h24z" fill="white"/>
+
+  <!-- Accent line -->
+  <rect x="160" y="160" width="48" height="8" rx="4" fill="rgba(255,255,255,0.5)"/>
+  <rect x="160" y="180" width="32" height="8" rx="4" fill="rgba(255,255,255,0.3)"/>
+</svg>
